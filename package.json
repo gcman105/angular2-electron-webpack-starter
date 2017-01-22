@@ -1,0 +1,44 @@
+{
+  "name": "angular2-electron-webpack-starter",
+  "version": "1.0.0",
+  "description": "An Angular2, Electron and Webpack starter kit",
+  "main": "main.js",
+  "angular2-cli": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcman105/angular2-electron-webpack-starter.git"
+  },
+  "keywords": [
+    "Node",
+    "Angular2",
+    "Electron",
+    "Webpack"
+  ],
+  "author": "Gary Cheeseman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gcman105/angular2-electron-webpack-starter/issues"
+  },
+  "homepage": "https://github.com/gcman105/angular2-electron-webpack-starter#readme",
+  "dependencies": {
+    "@angular/common": "^2.4.4",
+    "@angular/compiler": "^2.4.4",
+    "@angular/core": "^2.4.4",
+    "@angular/forms": "^2.4.4",
+    "@angular/http": "^2.4.4",
+    "@angular/platform-browser": "^2.4.4",
+    "@angular/platform-browser-dynamic": "^2.4.4",
+    "@angular/router": "^3.4.4",
+    "es6-shim": "^0.35.2",
+    "reflect-metadata": "^0.1.9",
+    "rxjs": "^5.0.3",
+    "zone.js": "^0.7.6"
+  },
+  "devDependencies": {
+    "tslint": "^4.3.1",
+    "typescript": "^2.1.5"
+  }
+}
