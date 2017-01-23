@@ -2,9 +2,12 @@
   "name": "angular2-electron-webpack-starter",
   "version": "1.0.0",
   "description": "An Angular2, Electron and Webpack starter kit",
-  "main": "main.js",
+  "main": "src/main.ts",
   "angular2-cli": {},
   "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js",
+    "webpack": "webpack --config webpack.config.js",
+    "lint": "tslint ./app/**/*.ts -t verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -33,12 +36,21 @@
     "@angular/platform-browser-dynamic": "^2.4.4",
     "@angular/router": "^3.4.4",
     "es6-shim": "^0.35.2",
-    "reflect-metadata": "^0.1.9",
-    "rxjs": "^5.0.3",
+    "reflect-metadata": "0.1.9",
+    "rxjs": "5.0.3",
     "zone.js": "^0.7.6"
   },
   "devDependencies": {
+    "html-webpack-plugin": "^2.26.0",
+    "node-sass": "^4.3.0",
+    "pug": "^2.0.0-beta6",
+    "pug-loader": "^2.3.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^2.0.0",
     "tslint": "^4.3.1",
-    "typescript": "^2.1.5"
+    "typescript": "^2.1.5",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
   }
 }
