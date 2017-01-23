@@ -41,6 +41,7 @@
     "zone.js": "^0.7.6"
   },
   "devDependencies": {
+    "css-loader": "^0.26.1",
     "html-webpack-plugin": "^2.26.0",
     "node-sass": "^4.3.0",
     "pug": "^2.0.0-beta6",
